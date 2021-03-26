@@ -8,10 +8,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace SMSBomber.Properties
+
+namespace smsboot.Properties
 {
-
-
     /// <summary>
     ///   Класс ресурсов со строгим типом для поиска локализованных строк и пр.
     /// </summary>
@@ -44,7 +43,7 @@ namespace SMSBomber.Properties
             {
                 if ((resourceMan == null))
                 {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("SMSBomber.Properties.Resources", typeof(Resources).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("smsboot.Properties.Resources", typeof(Resources).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

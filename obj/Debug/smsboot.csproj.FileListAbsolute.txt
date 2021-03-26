@@ -1,0 +1,15 @@
+C:\Users\Administrator\source\repos\smsboot\bin\Debug\smsboot.exe.config
+C:\Users\Administrator\source\repos\smsboot\bin\Debug\smsboot.exe
+C:\Users\Administrator\source\repos\smsboot\bin\Debug\smsboot.pdb
+C:\Users\Administrator\source\repos\smsboot\obj\Debug\smsboot.csprojAssemblyReference.cache
+C:\Users\Administrator\source\repos\smsboot\obj\Debug\MainWindow.g.cs
+C:\Users\Administrator\source\repos\smsboot\obj\Debug\App.g.cs
+C:\Users\Administrator\source\repos\smsboot\obj\Debug\smsboot_MarkupCompile.cache
+C:\Users\Administrator\source\repos\smsboot\obj\Debug\smsboot_MarkupCompile.lref
+C:\Users\Administrator\source\repos\smsboot\obj\Debug\MainWindow.baml
+C:\Users\Administrator\source\repos\smsboot\obj\Debug\smsboot.g.resources
+C:\Users\Administrator\source\repos\smsboot\obj\Debug\smsboot.Properties.Resources.resources
+C:\Users\Administrator\source\repos\smsboot\obj\Debug\smsboot.csproj.GenerateResource.cache
+C:\Users\Administrator\source\repos\smsboot\obj\Debug\smsboot.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\source\repos\smsboot\obj\Debug\smsboot.exe
+C:\Users\Administrator\source\repos\smsboot\obj\Debug\smsboot.pdb
