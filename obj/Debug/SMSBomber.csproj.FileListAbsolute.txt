@@ -1,0 +1,14 @@
+C:\Users\студент\source\repos\SMSBomber\SMSBomber\bin\Debug\SMSBomber.exe.config
+C:\Users\студент\source\repos\SMSBomber\SMSBomber\bin\Debug\SMSBomber.exe
+C:\Users\студент\source\repos\SMSBomber\SMSBomber\bin\Debug\SMSBomber.pdb
+C:\Users\студент\source\repos\SMSBomber\SMSBomber\obj\Debug\SMSBomber.csprojAssemblyReference.cache
+C:\Users\студент\source\repos\SMSBomber\SMSBomber\obj\Debug\MainWindow.g.cs
+C:\Users\студент\source\repos\SMSBomber\SMSBomber\obj\Debug\App.g.cs
+C:\Users\студент\source\repos\SMSBomber\SMSBomber\obj\Debug\SMSBomber_MarkupCompile.cache
+C:\Users\студент\source\repos\SMSBomber\SMSBomber\obj\Debug\SMSBomber_MarkupCompile.lref
+C:\Users\студент\source\repos\SMSBomber\SMSBomber\obj\Debug\MainWindow.baml
+C:\Users\студент\source\repos\SMSBomber\SMSBomber\obj\Debug\SMSBomber.g.resources
+C:\Users\студент\source\repos\SMSBomber\SMSBomber\obj\Debug\SMSBomber.Properties.Resources.resources
+C:\Users\студент\source\repos\SMSBomber\SMSBomber\obj\Debug\SMSBomber.csproj.GenerateResource.cache
+C:\Users\студент\source\repos\SMSBomber\SMSBomber\obj\Debug\SMSBomber.exe
+C:\Users\студент\source\repos\SMSBomber\SMSBomber\obj\Debug\SMSBomber.pdb
